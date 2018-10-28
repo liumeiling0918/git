@@ -21,3 +21,5 @@
 如果你有一个分支设置为跟踪一个远程分支，可以使用 git pull 命令来自动的抓取然后合并远程分支到当前分支。
 19.git push [remote-name] [branch-name]
 例如：git push origin master将master分支推送给origin远程仓库
+20.git remote show [remote-name] 查看远程仓库
+21.git remote rename 原名 现名
