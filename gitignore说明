@@ -7,3 +7,13 @@
 6.#后面为注解
 7.git diff 查看未暂存的内容的改动
 8.git diff --cached 查看已经暂存起来的变化（即经过git add）
+9.git rm 删除工作区中的文件
+10.git rm --cache删除暂存区中的文件
+11.git rm -f 强制删除
+12.git mv 移动文件
+13.git log 查看日志
+14.git commit --amend 撤销提交操作
+15.git remote 查看配置的远程仓库服务器
+16.git remote -v 查看配置的远程仓库服务器及其对应的url
+17.git remote add <shortname> <url> 添加一个新的远程 Git 仓库，同时指定一个可以轻松引用的简写
+18.
