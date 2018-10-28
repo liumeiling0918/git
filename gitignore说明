@@ -5,3 +5,5 @@
 4.build/ 忽略build路径下的所有文件
 5.!lib.a忽略所有不是lib.a的文件
 6.#后面为注解
+7.git diff 查看未暂存的内容的改动
+8.git diff --cached 查看已经暂存起来的变化（即经过git add）
