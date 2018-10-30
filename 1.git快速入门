@@ -6,6 +6,10 @@ git config --list检查配置信息
 git config <key> 检查 Git 的某一项配置。
 
 git status 查看状态
+git status -s 以简短的形式查看状态
+??表示在工作区
+A表示在暂存区
+git log查看日志
 
 获取git仓库的两种方式：
 第一种：
@@ -13,8 +17,8 @@ git clone url
 第二种：
 git init初始化仓库
 git add hello.py 从工作区拷贝到暂存区
-git commit -m 'describe' 从暂存区拷贝到仓库
-
+git commit hello.py -m 'describe' 从暂存区拷贝到仓库
+git commit -a -m "？？mark" add操作和commit操作同时完成
 
 .gitignore文件规范
 1.  *.[oa] 忽略所有以 .o 或 .a 结尾的文件
