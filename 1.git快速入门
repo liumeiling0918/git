@@ -42,4 +42,4 @@ git commit -m 'describe' 从暂存区拷贝到仓库
 19.git push [remote-name] [branch-name]
 例如：git push origin master将master分支推送给origin远程仓库
 20.git remote show [remote-name] 查看远程仓库
-21.git remote rename 原名 现名
+21.git remote rename 原名 现名 更改远程仓库的名字
